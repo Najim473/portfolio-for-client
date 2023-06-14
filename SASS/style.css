@@ -1,0 +1,362 @@
+* {
+  background: "#FAF9FF";
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+* body .container .findMe {
+  width: 100%;
+  height: 2.3rem;
+  background: black;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+* body .container .findMe .getinTouch {
+  display: flex;
+  align-items: center;
+}
+* body .container .findMe .getinTouch .call,
+* body .container .findMe .getinTouch .mail,
+* body .container .findMe .getinTouch .location,
+* body .container .findMe .getinTouch .clock {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+* body .container .findMe .getinTouch .call img,
+* body .container .findMe .getinTouch .mail img,
+* body .container .findMe .getinTouch .location img,
+* body .container .findMe .getinTouch .clock img {
+  width: 13px;
+}
+* body .container .findMe .getinTouch .call p,
+* body .container .findMe .getinTouch .mail p,
+* body .container .findMe .getinTouch .location p,
+* body .container .findMe .getinTouch .clock p {
+  font-size: 12px;
+  margin-left: 8px;
+}
+* body .container .findMe .socialMedia {
+  display: flex;
+  align-items: center;
+}
+* body .container .findMe .socialMedia a img {
+  width: 13px;
+  height: 12px;
+}
+* body .container .findMe .socialMedia a:nth-child(2) {
+  margin: 0 20px;
+}
+* body .container .homeContainer {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+* body .container .homeContainer .homenavContainer {
+  height: auto;
+  background: #ffffff;
+}
+* body .container .homeContainer .homenavContainer .navbar {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 8px 0;
+  background-color: #ffffff;
+  box-shadow: rgba(206, 201, 201, 0.45) 0px 25px 20px -20px;
+}
+* body .container .homeContainer .homenavContainer .navbar .logoText {
+  font-size: 25px;
+}
+* body .container .homeContainer .homenavContainer .navbar .logoText span:nth-child(1) {
+  color: #ffda29;
+}
+* body .container .homeContainer .homenavContainer .navbar .logoText span:nth-child(2) {
+  color: #4c40f8;
+}
+* body .container .homeContainer .homenavContainer .navbar .logoText span:nth-child(3) {
+  color: #3eca82;
+}
+* body .container .homeContainer .homenavContainer .navbar .logoText span:nth-child(4) {
+  color: red;
+}
+* body .container .homeContainer .homenavContainer .navbar .listItem ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+* body .container .homeContainer .homenavContainer .navbar .listItem ul li {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+* body .container .homeContainer .homenavContainer .navbar .listItem ul li:first-child {
+  color: #4c40f8;
+}
+* body .container .homeContainer .homenavContainer .navbar .listItem ul li span img {
+  width: 8px;
+  margin-left: 4px;
+}
+* body .container .homeContainer .homenavContainer .bestdeal {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+  margin-left: 22%;
+}
+* body .container .homeContainer .homenavContainer .bestdeal .digital {
+  align-items: center;
+  display: flex;
+  box-shadow: rgba(17, 17, 19, 0.1) 0px 4px 16px, rgba(55, 55, 57, 0.05) 0px 8px 32px;
+  padding: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+* body .container .homeContainer .homenavContainer .bestdeal .digital span {
+  margin: 0 10px;
+  background: #4c40f8;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  color: transparent;
+}
+* body .container .homeContainer .homenavContainer .bestdeal .business {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(17, 17, 19, 0.1) 0px 4px 16px, rgba(55, 55, 57, 0.05) 0px 8px 32px;
+  padding: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+* body .container .homeContainer .homenavContainer .bestdeal .business img {
+  width: 15px;
+  margin-right: 5px;
+}
+* body .container .homeContainer .homenavContainer .about {
+  background-image: url("../Assets/Text Side/background_png.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 87vh;
+}
+* body .container .homeContainer .homenavContainer .about h3 {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: start;
+  margin-left: 25%;
+}
+* body .container .homeContainer .homenavContainer .about h3:nth-child(1) span:nth-child(1) {
+  color: #ffda29;
+}
+* body .container .homeContainer .homenavContainer .about h3:nth-child(2) span:nth-child(1) {
+  color: #4c40f8;
+}
+* body .container .homeContainer .homenavContainer .about h3:nth-child(4) {
+  color: #3eca82;
+}
+* body .container .homeContainer .homenavContainer .about h3:nth-child(4) span:nth-child(2) {
+  color: red;
+}
+* body .container .homeContainer .homenavContainer .about .introduction {
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+}
+* body .container .homeContainer .homenavContainer .about .introduction .contactMe button {
+  font-weight: bold;
+  background: #4c40f8;
+  border: none;
+  padding: 7px 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  border-radius: 4px;
+}
+* body .container .homeContainer .homenavContainer .about .introduction .intro button {
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  border: 1px solid #4c40f8;
+  margin-left: 25px;
+  font-weight: bold;
+  color: #4c40f8;
+  border-radius: 4px;
+}
+* body .container .homeContainer .homenavContainer .about .introduction .intro button img {
+  width: 10px;
+}
+* body .container .homeContainer .homenavContainer .about .introduction .intro button p {
+  font-size: 12px;
+  margin-left: 5px;
+}
+* body .container .homeContainer .homenavContainer .about .myWork {
+  margin-left: 25%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+* body .container .homeContainer .homenavContainer .about .myWork button {
+  display: flex;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(9, 9, 9, 0.1) 0px 4px 16px, rgba(15, 15, 16, 0.05) 0px 8px 32px;
+  background: #ffffff;
+  padding: 7px;
+  border-radius: 15%;
+  margin-left: 11px;
+}
+* body .container .homeContainer .homenavContainer .about .myWork button:not:first-child {
+  margin-left: 11px;
+}
+* body .container .homeContainer .homenavContainer .about .myWork button img {
+  width: 15px;
+}
+* body .container .homeContainer .homenavContainer .about .myWork button p {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+* body .container .homeContainer .homesideContainer {
+  width: auto;
+  background: #4c40f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+* body .container .homeContainer .homesideContainer .contactBtn {
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  color: #4c40f8;
+  padding: 5px 12px;
+  border-radius: 3px;
+  position: absolute;
+  top: 18px;
+  box-shadow: rgba(75, 75, 97, 0.1) 0px 4px 16px, rgba(79, 79, 106, 0.05) 0px 8px 32px;
+}
+* body .container .homeContainer .profile {
+  position: absolute;
+  background: #8c90c4;
+  top: 30%;
+  right: 40%;
+}
+* body .container .homeContainer .profile .happyClient {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  width: 148px;
+  background: #ffffff;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: rgba(75, 75, 97, 0.1) 0px 4px 16px, rgba(79, 79, 106, 0.05) 0px 8px 32px;
+  top: 180px;
+  left: -60px;
+}
+* body .container .homeContainer .profile .happyClient img {
+  width: 15px;
+}
+* body .container .homeContainer .profile .happyClient p {
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: bold;
+}
+* body .container .homeContainer .profile .star {
+  background: #ffffff;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: rgba(17, 17, 19, 0.1) 0px 4px 16px, rgba(55, 55, 57, 0.05) 0px 8px 32px;
+}
+* body .container .homeContainer .profile .star .starImg {
+  width: 25px;
+  position: relative;
+  right: -200px;
+  top: 40px;
+}
+* body .container .homeContainer .profile .profileImg img {
+  position: absolute;
+  width: 250px;
+  height: 290px;
+  margin-top: -50px;
+  left: -2px;
+  z-index: 0;
+  border-radius: 50%;
+}
+* body .container .workPorcess .myWork {
+  align-items: center;
+  display: flex;
+  padding: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  justify-content: center;
+}
+* body .container .workPorcess .myWork span {
+  width: 200px;
+  margin: 0 10px;
+  background: #4c40f8;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  color: transparent;
+}
+* body .container .workPorcess h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+* body .container .workPorcess .cardContainer {
+  display: flex;
+  align-items: center;
+  margin: 30px 25px 80px 25px;
+  justify-content: space-between;
+}
+* body .container .workPorcess .cardContainer .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 200px;
+  padding: 10px;
+  height: 240px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .container .workPorcess .cardContainer .card img {
+  width: 80px;
+}
+* body .container .workPorcess .cardContainer .card h1 {
+  font-size: 13px;
+  padding: 10px;
+}
+* body .container .workPorcess .cardContainer .card p {
+  font-size: 12px;
+}
+* body .container .workPorcess .cardContainer .card button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  margin-top: 5px;
+  background: none;
+}
+* body .container .workPorcess .cardContainer .card button img {
+  width: 10px;
+  background: #ffda29;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
